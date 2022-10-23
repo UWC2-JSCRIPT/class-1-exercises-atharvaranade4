@@ -5,6 +5,14 @@
 // 1. Pagliacci charges $16.99 for a 13” pizza and $19.99 for a 17” pizza.
 // What is the area for each of these pizzas?
 // (radius would be the listed size - i.e. 13" - divided by 2)
+const SMALL_PIZZA_DIAMETER = 13;
+const LARGE_PIZZA_DIAMETER = 17;
+
+const smallPizzaArea = Math.PI * ((SMALL_PIZZA_DIAMETER/2)**2)
+const largePizzaArea = Math.PI * ((LARGE_PIZZA_DIAMETER/2)**2)
+
+console.log("Small Pizza Area = ", smallPizzaArea)
+console.log("Large Pizza Area = ", largePizzaArea)
 
 
 // 2. What is the cost per square inch of each pizza?
