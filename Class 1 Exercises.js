@@ -22,8 +22,8 @@ const LARGE_PIZZA_COST = 19.99;
 let smallCostPerSquareInch = SMALL_PIZZA_COST/smallPizzaArea
 let largeCostPerSquareInch = LARGE_PIZZA_COST/smallPizzaArea
 
-console.log("Cost per square inch for small pizza = ", smallCostPerSquareInch)
-console.log("Cost per square inch for large pizza = ", largeCostPerSquareInch)
+console.log("Cost per square inch for small pizza = ", smallCostPerSquareInch.toFixed(2))
+console.log("Cost per square inch for large pizza = ", largeCostPerSquareInch.toFixed(2))
 
 
 // 3. Using the Math object, put together a code snippet
