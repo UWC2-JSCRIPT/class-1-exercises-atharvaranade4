@@ -19,8 +19,8 @@ console.log("Large Pizza Area = ", largePizzaArea)
 const SMALL_PIZZA_COST = 16.99;
 const LARGE_PIZZA_COST = 19.99;
 
-const smallCostPerSquareInch = SMALL_PIZZA_COST/smallPizzaArea
-const largeCostPerSquareInch = LARGE_PIZZA_COST/smallPizzaArea
+let smallCostPerSquareInch = SMALL_PIZZA_COST/smallPizzaArea
+let largeCostPerSquareInch = LARGE_PIZZA_COST/smallPizzaArea
 
 console.log("Cost per square inch for small pizza = ", smallCostPerSquareInch)
 console.log("Cost per square inch for large pizza = ", largeCostPerSquareInch)
@@ -44,8 +44,8 @@ console.log("Second Draw = ", secondDraw)
 const thirdDraw = Math.ceil(Math.random() * 13);
 console.log("Third Draw = ", thirdDraw)
 
-const MAX = Math.max(firstDraw, secondDraw, thirdDraw)
-console.log("Highest value card = ", MAX)
+const HighestCard = Math.max(firstDraw, secondDraw, thirdDraw)
+console.log("Highest value card = ", HighestCard)
 
 
 
@@ -74,9 +74,6 @@ console.log("Full Address is: ", fullAddress)
 
 
 
-
-
-
 // 2. You are given a string in this format:
 // firstName lastName(assume no spaces in either)
 // streetAddress
@@ -93,7 +90,7 @@ const index = fullAddress.indexOf(`${firstName}`);
 
 // Use index to extract Name
 const AddressfirstName = fullAddressArr[index];
-console.log(AddressfirstName)
+console.log("First Name = ", AddressfirstName)
 
 
 
